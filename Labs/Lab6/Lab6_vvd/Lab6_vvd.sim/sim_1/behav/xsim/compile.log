@@ -1,0 +1,9 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Semesters/FA22/VE370/Labs/Lab6/lab.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Cache
+INFO: [VRFC 10-311] analyzing module main_memory
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Semesters/FA22/VE370/Labs/Lab6/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-311] analyzing module CacheTest
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Semesters/FA22/VE370/Labs/Lab6/Lab6_vvd/Lab6_vvd.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

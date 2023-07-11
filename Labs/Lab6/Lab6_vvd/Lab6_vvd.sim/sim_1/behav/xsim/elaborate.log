@@ -1,0 +1,19 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto fae3ceb32aae4378a6195443a7f7396e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CacheTest_behav xil_defaultlib.CacheTest xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'cache_rOw' [E:/Semesters/FA22/VE370/Labs/Lab6/test.v:17]
+WARNING: [VRFC 10-5021] port 'main_processing' is not connected on this instance [E:/Semesters/FA22/VE370/Labs/Lab6/test.v:17]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Cache
+Compiling module xil_defaultlib.main_memory
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.CacheTest
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot CacheTest_behav

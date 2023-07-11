@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Nov  6 00:21:03 2022
+# Process ID: 17080
+# Current directory: E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Lab4_ysz.runs/synth_1
+# Command line: vivado.exe -log tb_Top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source tb_Top.tcl
+# Log file: E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Lab4_ysz.runs/synth_1/tb_Top.vds
+# Journal file: E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Lab4_ysz.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source tb_Top.tcl -notrace

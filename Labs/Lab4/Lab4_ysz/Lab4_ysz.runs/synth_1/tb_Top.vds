@@ -1,0 +1,389 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Nov  6 00:21:03 2022
+# Process ID: 17080
+# Current directory: E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Lab4_ysz.runs/synth_1
+# Command line: vivado.exe -log tb_Top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source tb_Top.tcl
+# Log file: E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Lab4_ysz.runs/synth_1/tb_Top.vds
+# Journal file: E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Lab4_ysz.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source tb_Top.tcl -notrace
+Command: synth_design -top tb_Top -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 21496
+WARNING: [Synth 8-992] ID_PC_4 is already implicitly declared earlier [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:736]
+WARNING: [Synth 8-992] ID_PC_cur is already implicitly declared earlier [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:737]
+WARNING: [Synth 8-992] ID_instruction is already implicitly declared earlier [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:738]
+WARNING: [Synth 8-992] EX_Branch is already implicitly declared earlier [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:771]
+WARNING: [Synth 8-992] EX_MemRead is already implicitly declared earlier [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:771]
+WARNING: [Synth 8-992] EX_MemtoReg is already implicitly declared earlier [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:771]
+WARNING: [Synth 8-992] EX_MemWrite is already implicitly declared earlier [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:771]
+WARNING: [Synth 8-992] EX_ALUSrc is already implicitly declared earlier [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:771]
+WARNING: [Synth 8-992] EX_RegWrite is already implicitly declared earlier [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:771]
+WARNING: [Synth 8-992] EX_ALUop is already implicitly declared earlier [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:771]
+WARNING: [Synth 8-992] EX_IsJalr is already implicitly declared earlier [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:772]
+WARNING: [Synth 8-992] EX_JumpSrc is already implicitly declared earlier [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:772]
+WARNING: [Synth 8-992] EX_AsByte is already implicitly declared earlier [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:772]
+WARNING: [Synth 8-992] EX_AsUnsigned is already implicitly declared earlier [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:772]
+WARNING: [Synth 8-992] EX_PC_4 is already implicitly declared earlier [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:773]
+WARNING: [Synth 8-992] EX_PC_cur is already implicitly declared earlier [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:773]
+WARNING: [Synth 8-992] EX_R_data1 is already implicitly declared earlier [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:774]
+WARNING: [Synth 8-992] EX_R_data2 is already implicitly declared earlier [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:774]
+WARNING: [Synth 8-992] EX_imme is already implicitly declared earlier [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:775]
+WARNING: [Synth 8-992] EX_instruction_30 is already implicitly declared earlier [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:776]
+WARNING: [Synth 8-992] EX_instruction_func3 is already implicitly declared earlier [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:776]
+WARNING: [Synth 8-992] EX_W_reg is already implicitly declared earlier [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:776]
+WARNING: [Synth 8-992] MEM_Branch is already implicitly declared earlier [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:807]
+WARNING: [Synth 8-992] MEM_MemRead is already implicitly declared earlier [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:807]
+WARNING: [Synth 8-992] MEM_MemtoReg is already implicitly declared earlier [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:807]
+WARNING: [Synth 8-992] MEM_MemWrite is already implicitly declared earlier [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:807]
+WARNING: [Synth 8-992] MEM_RegWrite is already implicitly declared earlier [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:807]
+WARNING: [Synth 8-992] MEM_IsJalr is already implicitly declared earlier [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:808]
+WARNING: [Synth 8-992] MEM_JumpSrc is already implicitly declared earlier [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:808]
+WARNING: [Synth 8-992] MEM_AsByte is already implicitly declared earlier [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:808]
+WARNING: [Synth 8-992] MEM_AsUnsigned is already implicitly declared earlier [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:808]
+WARNING: [Synth 8-992] MEM_PC_4 is already implicitly declared earlier [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:809]
+WARNING: [Synth 8-992] MEM_PC_cur is already implicitly declared earlier [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:809]
+WARNING: [Synth 8-992] MEM_PC_Imme is already implicitly declared earlier [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:810]
+WARNING: [Synth 8-992] MEM_Zero is already implicitly declared earlier [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:811]
+WARNING: [Synth 8-992] MEM_ALU_results is already implicitly declared earlier [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:811]
+WARNING: [Synth 8-992] MEM_R_data2 is already implicitly declared earlier [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:812]
+WARNING: [Synth 8-992] MEM_W_reg is already implicitly declared earlier [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:813]
+WARNING: [Synth 8-992] WB_JumpSrc is already implicitly declared earlier [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:836]
+WARNING: [Synth 8-992] WB_PC_4 is already implicitly declared earlier [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:836]
+WARNING: [Synth 8-992] WB_Data_mem_data is already implicitly declared earlier [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:837]
+WARNING: [Synth 8-992] WB_ALU_results is already implicitly declared earlier [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:838]
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1031.176 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'tb_Top' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:847]
+	Parameter CLK_PERIOD bound to: 20 - type: integer 
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:850]
+INFO: [Synth 8-6157] synthesizing module 'Top' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:708]
+INFO: [Synth 8-6157] synthesizing module 'PC' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'PC' (1#1) [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:3]
+INFO: [Synth 8-6157] synthesizing module 'instr_mem' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'instr_mem' (2#1) [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:22]
+INFO: [Synth 8-6157] synthesizing module 'IF_ID_Reg' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:493]
+INFO: [Synth 8-6155] done synthesizing module 'IF_ID_Reg' (3#1) [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:493]
+INFO: [Synth 8-6157] synthesizing module 'Control_unit' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:111]
+WARNING: [Synth 8-151] case item 7'b1100111 is unreachable [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:123]
+INFO: [Synth 8-6155] done synthesizing module 'Control_unit' (4#1) [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:111]
+INFO: [Synth 8-6157] synthesizing module 'Control_unit2' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:216]
+INFO: [Synth 8-6155] done synthesizing module 'Control_unit2' (5#1) [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:216]
+INFO: [Synth 8-6157] synthesizing module 'Reg_file' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:262]
+Reason is one or more of the following :
+	1: Write port has constant address. 
+	2: No valid read/write found for RAM. 
+RAM "mem_reg" dissolved into registers
+
+Warning: Trying to implement RAM in registers. Block RAM or DRAM implementation is not possible for one or more of the following reasons :
+	1: Write port has constant address. 
+	2: Unable to determine number of words or word size in RAM. 
+	3: No valid read/write found for RAM. 
+RAM dissolved into registers
+INFO: [Synth 8-6155] done synthesizing module 'Reg_file' (6#1) [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:262]
+INFO: [Synth 8-6157] synthesizing module 'Immediate_generator' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:292]
+INFO: [Synth 8-6155] done synthesizing module 'Immediate_generator' (7#1) [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:292]
+INFO: [Synth 8-6157] synthesizing module 'ID_EX_Reg' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:517]
+INFO: [Synth 8-6155] done synthesizing module 'ID_EX_Reg' (8#1) [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:517]
+INFO: [Synth 8-6157] synthesizing module 'ALU_control' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:398]
+INFO: [Synth 8-226] default block is never used [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:406]
+INFO: [Synth 8-6155] done synthesizing module 'ALU_control' (9#1) [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:398]
+INFO: [Synth 8-6157] synthesizing module 'Mux_32bit' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:330]
+INFO: [Synth 8-6155] done synthesizing module 'Mux_32bit' (10#1) [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:330]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:342]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (11#1) [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:342]
+INFO: [Synth 8-6157] synthesizing module 'EX_MEM_Reg' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:610]
+INFO: [Synth 8-6155] done synthesizing module 'EX_MEM_Reg' (12#1) [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:610]
+INFO: [Synth 8-6157] synthesizing module 'PCSrc_generator' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:436]
+INFO: [Synth 8-6155] done synthesizing module 'PCSrc_generator' (13#1) [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:436]
+INFO: [Synth 8-6157] synthesizing module 'Data_mem' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:451]
+INFO: [Synth 8-6155] done synthesizing module 'Data_mem' (14#1) [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:451]
+INFO: [Synth 8-6157] synthesizing module 'MEM_WB_Reg' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:674]
+INFO: [Synth 8-6155] done synthesizing module 'MEM_WB_Reg' (15#1) [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:674]
+INFO: [Synth 8-6155] done synthesizing module 'Top' (16#1) [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:708]
+WARNING: [Synth 8-85] always block has no event control specified [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:855]
+INFO: [Synth 8-6155] done synthesizing module 'tb_Top' (17#1) [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:847]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1031.176 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1031.176 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1031.176 ; gain = 0.000
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'instr_out_reg' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:304]
+WARNING: [Synth 8-327] inferring latch for variable 'ALU_control_reg' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:408]
+WARNING: [Synth 8-327] inferring latch for variable 'Results_reg' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:354]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[127]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[126]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[125]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[124]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[123]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[122]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[121]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[120]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[119]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[118]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[117]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[116]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[115]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[114]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[113]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[112]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[111]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[110]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[109]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[108]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[107]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[106]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[105]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[104]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[103]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[102]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[101]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[100]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[99]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[98]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[97]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[96]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[95]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[94]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[93]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[92]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[91]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[90]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[89]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[88]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[87]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[86]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[85]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[84]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[83]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[82]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[81]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[80]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[79]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[78]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[77]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[76]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[75]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[74]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[73]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[72]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[71]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[70]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[69]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[68]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[67]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[66]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[65]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[64]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[63]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[62]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[61]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[60]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[59]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[58]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[57]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[56]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[55]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[54]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[53]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[52]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[51]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[50]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[49]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[48]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[47]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[46]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[45]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[44]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[43]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[42]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[41]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[40]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[39]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[38]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[37]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[36]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[35]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[34]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[33]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[32]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+WARNING: [Synth 8-327] inferring latch for variable 'mem_reg[31]' [E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v:465]
+INFO: [Common 17-14] Message 'Synth 8-327' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1031.176 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 3     
+	   3 Input   32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 48    
+	                5 Bit    Registers := 3     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 24    
++---Muxes : 
+	  79 Input   32 Bit        Muxes := 1     
+	   4 Input   32 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 6     
+	   7 Input   32 Bit        Muxes := 1     
+	   4 Input    8 Bit        Muxes := 72    
+	   2 Input    8 Bit        Muxes := 254   
+	   4 Input    4 Bit        Muxes := 1     
+	  10 Input    4 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 2     
+	  12 Input    3 Bit        Muxes := 1     
+	   7 Input    2 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 9     
+	   2 Input    2 Bit        Muxes := 1     
+	   7 Input    1 Bit        Muxes := 6     
+	   3 Input    1 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 265   
+	   6 Input    1 Bit        Muxes := 1     
+	   8 Input    1 Bit        Muxes := 1     
+	  12 Input    1 Bit        Muxes := 1     
+	   4 Input    1 Bit        Muxes := 128   
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 1031.176 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 1031.176 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 1031.176 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 1031.176 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 1031.176 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 1031.176 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 1031.176 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 1031.176 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 1031.176 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     0|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 1031.176 ; gain = 0.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 176 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 1031.176 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 1031.176 ; gain = 0.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1031.176 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1031.176 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+46 Infos, 145 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:25 . Memory (MB): peak = 1031.176 ; gain = 18.066
+INFO: [Common 17-1381] The checkpoint 'E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Lab4_ysz.runs/synth_1/tb_Top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file tb_Top_utilization_synth.rpt -pb tb_Top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Nov  6 00:21:30 2022...

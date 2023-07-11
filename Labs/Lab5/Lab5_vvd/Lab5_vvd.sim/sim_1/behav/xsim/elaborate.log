@@ -1,0 +1,40 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 08b2998baad0495494ce4cd18dbeb00a --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb__behav xil_defaultlib.tb_ xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "E:/Semesters/FA22/VE370/Labs/Lab5/Lab5_vvd/Lab5_vvd.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "E:/Semesters/FA22/VE370/Labs/Lab5/Lab5_vvd/Lab5_vvd.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.instructionMemory_default
+Compiling module xil_defaultlib.add
+Compiling module xil_defaultlib.PC_mux_32b_2to1
+Compiling module xil_defaultlib.IF_ID
+Compiling module xil_defaultlib.registerFile_default
+Compiling module xil_defaultlib.immGen
+Compiling module xil_defaultlib.control
+Compiling module xil_defaultlib.mux_32b_2to1(width=13)
+Compiling module xil_defaultlib.hazardDetectionUnit
+Compiling module xil_defaultlib.branchDetection
+Compiling module xil_defaultlib.branchControl
+Compiling module xil_defaultlib.shiftRight1
+Compiling module xil_defaultlib.mux_32b_2to1
+Compiling module xil_defaultlib.ID_forwardingUnit
+Compiling module xil_defaultlib.ID_EX
+Compiling module xil_defaultlib.mux_32b_3to1
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.ALU_ct
+Compiling module xil_defaultlib.EX_forwardingUnit
+Compiling module xil_defaultlib.EX_MEM
+Compiling module xil_defaultlib.memSrcUnit
+Compiling module xil_defaultlib.dataMemory_default
+Compiling module xil_defaultlib.MEM_WB
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.tb_
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb__behav

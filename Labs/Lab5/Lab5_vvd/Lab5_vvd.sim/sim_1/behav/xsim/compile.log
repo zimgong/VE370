@@ -1,0 +1,53 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Semesters/FA22/VE370/Labs/Lab5/pipelined_cpu_hazard_resolved.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-311] analyzing module instructionMemory
+INFO: [VRFC 10-311] analyzing module registerFile
+INFO: [VRFC 10-311] analyzing module immGen
+INFO: [VRFC 10-311] analyzing module mux_32b_2to1
+INFO: [VRFC 10-311] analyzing module PC_mux_32b_2to1
+INFO: [VRFC 10-311] analyzing module mux_32b_3to1
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module dataMemory
+INFO: [VRFC 10-311] analyzing module add
+INFO: [VRFC 10-311] analyzing module shiftRight1
+INFO: [VRFC 10-311] analyzing module branchControl
+INFO: [VRFC 10-311] analyzing module ALU_ct
+INFO: [VRFC 10-311] analyzing module control
+INFO: [VRFC 10-311] analyzing module ID_forwardingUnit
+INFO: [VRFC 10-311] analyzing module EX_forwardingUnit
+INFO: [VRFC 10-311] analyzing module hazardDetectionUnit
+INFO: [VRFC 10-311] analyzing module memSrcUnit
+INFO: [VRFC 10-311] analyzing module branchDetection
+INFO: [VRFC 10-311] analyzing module IF_ID
+INFO: [VRFC 10-311] analyzing module ID_EX
+INFO: [VRFC 10-311] analyzing module EX_MEM
+INFO: [VRFC 10-311] analyzing module MEM_WB
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2458] undeclared symbol PCWrite, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab5/pipelined_cpu_hazard_resolved.v:718]
+INFO: [VRFC 10-2458] undeclared symbol Branch_Src, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab5/pipelined_cpu_hazard_resolved.v:721]
+INFO: [VRFC 10-2458] undeclared symbol ID_write, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab5/pipelined_cpu_hazard_resolved.v:723]
+INFO: [VRFC 10-2458] undeclared symbol IF_flush, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab5/pipelined_cpu_hazard_resolved.v:723]
+INFO: [VRFC 10-2458] undeclared symbol WB_regWrite, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab5/pipelined_cpu_hazard_resolved.v:725]
+INFO: [VRFC 10-2458] undeclared symbol controlFlush, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab5/pipelined_cpu_hazard_resolved.v:728]
+INFO: [VRFC 10-2458] undeclared symbol ID_jal, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab5/pipelined_cpu_hazard_resolved.v:729]
+INFO: [VRFC 10-2458] undeclared symbol ID_jalr, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab5/pipelined_cpu_hazard_resolved.v:729]
+INFO: [VRFC 10-2458] undeclared symbol ID_branch, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab5/pipelined_cpu_hazard_resolved.v:729]
+INFO: [VRFC 10-2458] undeclared symbol ID_memToReg, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab5/pipelined_cpu_hazard_resolved.v:729]
+INFO: [VRFC 10-2458] undeclared symbol ID_ALU_src, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab5/pipelined_cpu_hazard_resolved.v:729]
+INFO: [VRFC 10-2458] undeclared symbol ID_regWrite, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab5/pipelined_cpu_hazard_resolved.v:729]
+INFO: [VRFC 10-2458] undeclared symbol ID_PCToReg, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab5/pipelined_cpu_hazard_resolved.v:729]
+INFO: [VRFC 10-2458] undeclared symbol Forward1, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab5/pipelined_cpu_hazard_resolved.v:732]
+INFO: [VRFC 10-2458] undeclared symbol Forward2, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab5/pipelined_cpu_hazard_resolved.v:732]
+INFO: [VRFC 10-2458] undeclared symbol EX_regWrite, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab5/pipelined_cpu_hazard_resolved.v:732]
+INFO: [VRFC 10-2458] undeclared symbol ID_branchOK, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab5/pipelined_cpu_hazard_resolved.v:733]
+INFO: [VRFC 10-2458] undeclared symbol MEM_regWrite, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab5/pipelined_cpu_hazard_resolved.v:742]
+INFO: [VRFC 10-2458] undeclared symbol EX_PCToReg, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab5/pipelined_cpu_hazard_resolved.v:744]
+INFO: [VRFC 10-2458] undeclared symbol EX_memToReg, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab5/pipelined_cpu_hazard_resolved.v:744]
+INFO: [VRFC 10-2458] undeclared symbol EX_ALU_src, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab5/pipelined_cpu_hazard_resolved.v:744]
+INFO: [VRFC 10-2458] undeclared symbol MEM_PCToReg, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab5/pipelined_cpu_hazard_resolved.v:753]
+INFO: [VRFC 10-2458] undeclared symbol MEM_memToReg, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab5/pipelined_cpu_hazard_resolved.v:753]
+INFO: [VRFC 10-2458] undeclared symbol memSrc, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab5/pipelined_cpu_hazard_resolved.v:755]
+INFO: [VRFC 10-2458] undeclared symbol WB_PCToReg, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab5/pipelined_cpu_hazard_resolved.v:759]
+INFO: [VRFC 10-2458] undeclared symbol WB_memToReg, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab5/pipelined_cpu_hazard_resolved.v:759]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Semesters/FA22/VE370/Labs/Lab5/simulation.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_

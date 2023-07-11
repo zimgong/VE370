@@ -1,0 +1,359 @@
+
+*** Running vivado
+    with args -log top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+
+
+
+****** Vivado v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source top.tcl -notrace
+Command: synth_design -top top -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 24940
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1031.492 ; gain = 0.141
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:508]
+	Parameter width bound to: 32 - type: integer 
+	Parameter addr_width bound to: 5 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'PC' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:1]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PC' (1#1) [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:1]
+INFO: [Synth 8-6157] synthesizing module 'instructionMemory' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:17]
+	Parameter width bound to: 32 - type: integer 
+	Parameter addr_width bound to: 7 - type: integer 
+	Parameter number bound to: 128 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_testcase.txt' is read successfully [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'instructionMemory' (2#1) [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:17]
+INFO: [Synth 8-6157] synthesizing module 'add' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:231]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'add' (3#1) [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:231]
+INFO: [Synth 8-6157] synthesizing module 'PC_mux_32b_3to1' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:102]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PC_mux_32b_3to1' (4#1) [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:102]
+INFO: [Synth 8-6157] synthesizing module 'IF_ID' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:421]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'IF_ID' (5#1) [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:421]
+INFO: [Synth 8-6157] synthesizing module 'registers' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:34]
+	Parameter width bound to: 32 - type: integer 
+	Parameter addr_width bound to: 5 - type: integer 
+	Parameter number bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'registers' (6#1) [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:34]
+INFO: [Synth 8-6157] synthesizing module 'immGen' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:59]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'immGen' (7#1) [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:59]
+INFO: [Synth 8-6157] synthesizing module 'control' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:319]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'control' (8#1) [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:319]
+INFO: [Synth 8-6157] synthesizing module 'ID_EX' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:435]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ID_EX' (9#1) [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:435]
+INFO: [Synth 8-6157] synthesizing module 'mux_32b_2to1' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:92]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mux_32b_2to1' (10#1) [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:92]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:119]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (11#1) [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:119]
+INFO: [Synth 8-6157] synthesizing module 'ALU_ct' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:266]
+INFO: [Synth 8-226] default block is never used [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:272]
+INFO: [Synth 8-6155] done synthesizing module 'ALU_ct' (12#1) [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:266]
+INFO: [Synth 8-6157] synthesizing module 'shiftRight1' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:240]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'shiftRight1' (13#1) [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:240]
+INFO: [Synth 8-6157] synthesizing module 'EX_MEM' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:465]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'EX_MEM' (14#1) [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:465]
+INFO: [Synth 8-6157] synthesizing module 'dataMemory' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:181]
+	Parameter width bound to: 32 - type: integer 
+	Parameter addr_width bound to: 7 - type: integer 
+	Parameter number bound to: 128 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'dataMemory' (15#1) [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:181]
+INFO: [Synth 8-6157] synthesizing module 'branchControl' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:253]
+INFO: [Synth 8-6155] done synthesizing module 'branchControl' (16#1) [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:253]
+INFO: [Synth 8-6157] synthesizing module 'MEM_WB' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:490]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'MEM_WB' (17#1) [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:490]
+INFO: [Synth 8-6155] done synthesizing module 'top' (18#1) [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:508]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1031.492 ; gain = 0.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1031.492 ; gain = 0.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1031.492 ; gain = 0.141
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[31]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[30]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[29]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[28]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[27]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[26]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[25]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[24]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[23]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[22]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[21]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[20]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[19]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[18]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[17]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[16]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[15]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[14]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[13]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[12]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[11]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[10]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[9]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[8]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[7]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[6]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[5]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[4]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[3]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[2]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[1]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[0]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[127]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[126]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[125]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[124]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[123]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[122]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[121]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[120]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[119]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[118]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[117]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[116]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[115]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[114]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[113]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[112]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[111]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[110]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[109]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[108]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[107]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[106]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[105]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[104]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[103]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[102]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[101]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[100]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[99]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[98]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[97]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[96]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[95]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[94]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[93]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[92]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[91]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[90]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[89]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[88]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[87]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[86]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[85]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[84]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[83]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[82]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[81]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[80]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[79]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[78]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[77]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[76]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[75]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[74]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[73]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[72]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[71]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[70]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[69]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[68]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[67]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[66]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[65]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[64]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[63]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[62]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[61]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+WARNING: [Synth 8-327] inferring latch for variable 'memory_reg[60]' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:203]
+INFO: [Common 17-14] Message 'Synth 8-327' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1031.492 ; gain = 0.141
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 3     
+	   3 Input   32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 14    
+	                6 Bit    Registers := 2     
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	  79 Input   32 Bit        Muxes := 1     
+	   4 Input   32 Bit        Muxes := 3     
+	  11 Input   32 Bit        Muxes := 3     
+	   2 Input   32 Bit        Muxes := 3     
+	   4 Input    8 Bit        Muxes := 72    
+	   2 Input    8 Bit        Muxes := 254   
+	   7 Input    4 Bit        Muxes := 2     
+	   5 Input    4 Bit        Muxes := 2     
+	   8 Input    4 Bit        Muxes := 2     
+	   4 Input    2 Bit        Muxes := 10    
+	   8 Input    2 Bit        Muxes := 4     
+	   2 Input    2 Bit        Muxes := 2     
+	   3 Input    2 Bit        Muxes := 3     
+	   2 Input    1 Bit        Muxes := 165   
+	   8 Input    1 Bit        Muxes := 6     
+	  11 Input    1 Bit        Muxes := 1     
+	   3 Input    1 Bit        Muxes := 128   
+	   4 Input    1 Bit        Muxes := 128   
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1031.492 ; gain = 0.141
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1031.492 ; gain = 0.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1031.492 ; gain = 0.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1031.492 ; gain = 0.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1031.492 ; gain = 0.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1031.492 ; gain = 0.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1031.492 ; gain = 0.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1031.492 ; gain = 0.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1031.492 ; gain = 0.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     0|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1031.492 ; gain = 0.141
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 160 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1031.492 ; gain = 0.141
+Synthesis Optimization Complete : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1031.492 ; gain = 0.141
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1031.492 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1031.492 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+49 Infos, 100 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1031.492 ; gain = 18.438
+INFO: [Common 17-1381] The checkpoint 'E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_vvd/Lab4_vvd.runs/synth_1/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Nov  9 09:35:47 2022...

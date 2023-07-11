@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb__behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="120001fs"></ZoomEndTime>
+      <Cursor1Time time="120000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="225"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="108" />
+   <wvobject fp_name="/tb_/test/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/IF_PC_add_4" type="array">
+      <obj_property name="ElementShortName">IF_PC_add_4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_PC_add_4[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/PC_next" type="array">
+      <obj_property name="ElementShortName">PC_next[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_next[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/IF_PC" type="array">
+      <obj_property name="ElementShortName">IF_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/IF_instruction" type="array">
+      <obj_property name="ElementShortName">IF_instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/ID_PC_add_4" type="array">
+      <obj_property name="ElementShortName">ID_PC_add_4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_PC_add_4[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/ID_PC" type="array">
+      <obj_property name="ElementShortName">ID_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/ID_instruction" type="array">
+      <obj_property name="ElementShortName">ID_instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/ID_immediate" type="array">
+      <obj_property name="ElementShortName">ID_immediate[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_immediate[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/ID_readData1" type="array">
+      <obj_property name="ElementShortName">ID_readData1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_readData1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/ID_readData2" type="array">
+      <obj_property name="ElementShortName">ID_readData2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_readData2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/ID_branch_immediate" type="array">
+      <obj_property name="ElementShortName">ID_branch_immediate[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_branch_immediate[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/ID_PC_branch" type="array">
+      <obj_property name="ElementShortName">ID_PC_branch[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_PC_branch[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/ID_forward1_result" type="array">
+      <obj_property name="ElementShortName">ID_forward1_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_forward1_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/ID_forward2_result" type="array">
+      <obj_property name="ElementShortName">ID_forward2_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_forward2_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/ID_addfirst" type="array">
+      <obj_property name="ElementShortName">ID_addfirst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_addfirst[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/ID_addsecond" type="array">
+      <obj_property name="ElementShortName">ID_addsecond[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_addsecond[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/ID_ALU_control_input" type="array">
+      <obj_property name="ElementShortName">ID_ALU_control_input[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_ALU_control_input[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/ID_Rs1" type="array">
+      <obj_property name="ElementShortName">ID_Rs1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_Rs1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/ID_Rs2" type="array">
+      <obj_property name="ElementShortName">ID_Rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_Rs2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/ID_Rd" type="array">
+      <obj_property name="ElementShortName">ID_Rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_Rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/ID_ALU_op" type="array">
+      <obj_property name="ElementShortName">ID_ALU_op[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_ALU_op[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/ID_memRead" type="array">
+      <obj_property name="ElementShortName">ID_memRead[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_memRead[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/ID_memWrite" type="array">
+      <obj_property name="ElementShortName">ID_memWrite[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_memWrite[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/EX_PC_add_4" type="array">
+      <obj_property name="ElementShortName">EX_PC_add_4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_PC_add_4[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/EX_instruction" type="array">
+      <obj_property name="ElementShortName">EX_instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/EX_immediate" type="array">
+      <obj_property name="ElementShortName">EX_immediate[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_immediate[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/EX_readData1" type="array">
+      <obj_property name="ElementShortName">EX_readData1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_readData1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/EX_readData2" type="array">
+      <obj_property name="ElementShortName">EX_readData2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_readData2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/EX_ALU_input2" type="array">
+      <obj_property name="ElementShortName">EX_ALU_input2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_ALU_input2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/EX_ALU_result" type="array">
+      <obj_property name="ElementShortName">EX_ALU_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_ALU_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/EX_writeData" type="array">
+      <obj_property name="ElementShortName">EX_writeData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_writeData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/EX_forwardA_result" type="array">
+      <obj_property name="ElementShortName">EX_forwardA_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_forwardA_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/EX_forwardB_result" type="array">
+      <obj_property name="ElementShortName">EX_forwardB_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_forwardB_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/EX_ALU_control_input" type="array">
+      <obj_property name="ElementShortName">EX_ALU_control_input[3:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_ALU_control_input[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/EX_Rs1" type="array">
+      <obj_property name="ElementShortName">EX_Rs1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_Rs1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/EX_Rs2" type="array">
+      <obj_property name="ElementShortName">EX_Rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_Rs2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/EX_Rd" type="array">
+      <obj_property name="ElementShortName">EX_Rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_Rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/EX_ALU_control" type="array">
+      <obj_property name="ElementShortName">EX_ALU_control[3:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_ALU_control[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/EX_ALU_op" type="array">
+      <obj_property name="ElementShortName">EX_ALU_op[1:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_ALU_op[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/EX_memRead" type="array">
+      <obj_property name="ElementShortName">EX_memRead[1:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_memRead[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/EX_memWrite" type="array">
+      <obj_property name="ElementShortName">EX_memWrite[1:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_memWrite[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/ForwardA" type="array">
+      <obj_property name="ElementShortName">ForwardA[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardA[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/ForwardB" type="array">
+      <obj_property name="ElementShortName">ForwardB[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardB[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/MEM_PC_add_4" type="array">
+      <obj_property name="ElementShortName">MEM_PC_add_4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_PC_add_4[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/MEM_readData2" type="array">
+      <obj_property name="ElementShortName">MEM_readData2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_readData2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/MEM_ALU_result" type="array">
+      <obj_property name="ElementShortName">MEM_ALU_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_ALU_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/MEM_readData" type="array">
+      <obj_property name="ElementShortName">MEM_readData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_readData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/MEM_writeData" type="array">
+      <obj_property name="ElementShortName">MEM_writeData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_writeData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/MEM_Rd" type="array">
+      <obj_property name="ElementShortName">MEM_Rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_Rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/MEM_Rs2" type="array">
+      <obj_property name="ElementShortName">MEM_Rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_Rs2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/MEM_memRead" type="array">
+      <obj_property name="ElementShortName">MEM_memRead[1:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_memRead[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/MEM_memWrite" type="array">
+      <obj_property name="ElementShortName">MEM_memWrite[1:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_memWrite[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/WB_PC_add_4" type="array">
+      <obj_property name="ElementShortName">WB_PC_add_4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WB_PC_add_4[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/WB_ALU_result" type="array">
+      <obj_property name="ElementShortName">WB_ALU_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WB_ALU_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/WB_readData" type="array">
+      <obj_property name="ElementShortName">WB_readData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WB_readData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/WB_writeData" type="array">
+      <obj_property name="ElementShortName">WB_writeData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WB_writeData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/WB_Rd" type="array">
+      <obj_property name="ElementShortName">WB_Rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">WB_Rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/WB_memRead" type="array">
+      <obj_property name="ElementShortName">WB_memRead[1:0]</obj_property>
+      <obj_property name="ObjectShortName">WB_memRead[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/PCWrite" type="logic">
+      <obj_property name="ElementShortName">PCWrite</obj_property>
+      <obj_property name="ObjectShortName">PCWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/Branch_Src" type="logic">
+      <obj_property name="ElementShortName">Branch_Src</obj_property>
+      <obj_property name="ObjectShortName">Branch_Src</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/ID_write" type="logic">
+      <obj_property name="ElementShortName">ID_write</obj_property>
+      <obj_property name="ObjectShortName">ID_write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/IF_flush" type="logic">
+      <obj_property name="ElementShortName">IF_flush</obj_property>
+      <obj_property name="ObjectShortName">IF_flush</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/WB_regWrite" type="logic">
+      <obj_property name="ElementShortName">WB_regWrite</obj_property>
+      <obj_property name="ObjectShortName">WB_regWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/controlFlush" type="logic">
+      <obj_property name="ElementShortName">controlFlush</obj_property>
+      <obj_property name="ObjectShortName">controlFlush</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/ID_jal" type="logic">
+      <obj_property name="ElementShortName">ID_jal</obj_property>
+      <obj_property name="ObjectShortName">ID_jal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/ID_jalr" type="logic">
+      <obj_property name="ElementShortName">ID_jalr</obj_property>
+      <obj_property name="ObjectShortName">ID_jalr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/ID_branch" type="logic">
+      <obj_property name="ElementShortName">ID_branch</obj_property>
+      <obj_property name="ObjectShortName">ID_branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/ID_memToReg" type="logic">
+      <obj_property name="ElementShortName">ID_memToReg</obj_property>
+      <obj_property name="ObjectShortName">ID_memToReg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/ID_ALU_src" type="logic">
+      <obj_property name="ElementShortName">ID_ALU_src</obj_property>
+      <obj_property name="ObjectShortName">ID_ALU_src</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/ID_regWrite" type="logic">
+      <obj_property name="ElementShortName">ID_regWrite</obj_property>
+      <obj_property name="ObjectShortName">ID_regWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/ID_PCToReg" type="logic">
+      <obj_property name="ElementShortName">ID_PCToReg</obj_property>
+      <obj_property name="ObjectShortName">ID_PCToReg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/Forward1" type="logic">
+      <obj_property name="ElementShortName">Forward1</obj_property>
+      <obj_property name="ObjectShortName">Forward1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/Forward2" type="logic">
+      <obj_property name="ElementShortName">Forward2</obj_property>
+      <obj_property name="ObjectShortName">Forward2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/EX_regWrite" type="logic">
+      <obj_property name="ElementShortName">EX_regWrite</obj_property>
+      <obj_property name="ObjectShortName">EX_regWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/ID_branchOK" type="logic">
+      <obj_property name="ElementShortName">ID_branchOK</obj_property>
+      <obj_property name="ObjectShortName">ID_branchOK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/MEM_regWrite" type="logic">
+      <obj_property name="ElementShortName">MEM_regWrite</obj_property>
+      <obj_property name="ObjectShortName">MEM_regWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/EX_PCToReg" type="logic">
+      <obj_property name="ElementShortName">EX_PCToReg</obj_property>
+      <obj_property name="ObjectShortName">EX_PCToReg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/EX_memToReg" type="logic">
+      <obj_property name="ElementShortName">EX_memToReg</obj_property>
+      <obj_property name="ObjectShortName">EX_memToReg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/EX_ALU_src" type="logic">
+      <obj_property name="ElementShortName">EX_ALU_src</obj_property>
+      <obj_property name="ObjectShortName">EX_ALU_src</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/MEM_PCToReg" type="logic">
+      <obj_property name="ElementShortName">MEM_PCToReg</obj_property>
+      <obj_property name="ObjectShortName">MEM_PCToReg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/MEM_memToReg" type="logic">
+      <obj_property name="ElementShortName">MEM_memToReg</obj_property>
+      <obj_property name="ObjectShortName">MEM_memToReg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/memSrc" type="logic">
+      <obj_property name="ElementShortName">memSrc</obj_property>
+      <obj_property name="ObjectShortName">memSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/WB_PCToReg" type="logic">
+      <obj_property name="ElementShortName">WB_PCToReg</obj_property>
+      <obj_property name="ObjectShortName">WB_PCToReg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/WB_memToReg" type="logic">
+      <obj_property name="ElementShortName">WB_memToReg</obj_property>
+      <obj_property name="ObjectShortName">WB_memToReg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/width" type="array">
+      <obj_property name="ElementShortName">width[31:0]</obj_property>
+      <obj_property name="ObjectShortName">width[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/addr_width" type="array">
+      <obj_property name="ElementShortName">addr_width[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_width[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/registerfile/readData1" type="array">
+      <obj_property name="ElementShortName">readData1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readData1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/registerfile/readData2" type="array">
+      <obj_property name="ElementShortName">readData2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readData2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/registerfile/writeData" type="array">
+      <obj_property name="ElementShortName">writeData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">writeData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/registerfile/readRegister1" type="array">
+      <obj_property name="ElementShortName">readRegister1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">readRegister1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/registerfile/readRegister2" type="array">
+      <obj_property name="ElementShortName">readRegister2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">readRegister2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/registerfile/writeRegister" type="array">
+      <obj_property name="ElementShortName">writeRegister[4:0]</obj_property>
+      <obj_property name="ObjectShortName">writeRegister[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/registerfile/regWrite" type="logic">
+      <obj_property name="ElementShortName">regWrite</obj_property>
+      <obj_property name="ObjectShortName">regWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/registerfile/registers" type="array">
+      <obj_property name="ElementShortName">registers[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">registers[31:0][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/registerfile/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/registerfile/width" type="array">
+      <obj_property name="ElementShortName">width[31:0]</obj_property>
+      <obj_property name="ObjectShortName">width[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/registerfile/addr_width" type="array">
+      <obj_property name="ElementShortName">addr_width[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_width[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/registerfile/number" type="array">
+      <obj_property name="ElementShortName">number[31:0]</obj_property>
+      <obj_property name="ObjectShortName">number[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/dm/address" type="array">
+      <obj_property name="ElementShortName">address[31:0]</obj_property>
+      <obj_property name="ObjectShortName">address[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/dm/writeData" type="array">
+      <obj_property name="ElementShortName">writeData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">writeData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/dm/memWrite" type="array">
+      <obj_property name="ElementShortName">memWrite[1:0]</obj_property>
+      <obj_property name="ObjectShortName">memWrite[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/dm/memRead" type="array">
+      <obj_property name="ElementShortName">memRead[1:0]</obj_property>
+      <obj_property name="ObjectShortName">memRead[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/dm/readData" type="array">
+      <obj_property name="ElementShortName">readData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/dm/memory" type="array">
+      <obj_property name="ElementShortName">memory[127:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">memory[127:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/dm/width" type="array">
+      <obj_property name="ElementShortName">width[31:0]</obj_property>
+      <obj_property name="ObjectShortName">width[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/dm/addr_width" type="array">
+      <obj_property name="ElementShortName">addr_width[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_width[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_/test/dm/number" type="array">
+      <obj_property name="ElementShortName">number[31:0]</obj_property>
+      <obj_property name="ObjectShortName">number[31:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,6 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Lab4_ysz.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_ysz/Top.v,1667688482,verilog,,,,ALU;ALU_control;Adder_32bit;Control_unit;Control_unit2;Data_mem;EX_MEM_Reg;ID_EX_Reg;IF_ID_Reg;Immediate_generator;MEM_WB_Reg;Mux_32bit;PC;PCSrc_generator;Reg_file;Top;instr_mem;tb_Top,,,,,,,,

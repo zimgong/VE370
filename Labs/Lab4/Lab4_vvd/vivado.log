@@ -1,0 +1,289 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Nov  9 09:35:01 2022
+# Process ID: 10508
+# Current directory: E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_vvd
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18028 E:\Semesters\FA22\VE370\Labs\Lab4\Lab4_vvd\Lab4_vvd.xpr
+# Log file: E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_vvd/vivado.log
+# Journal file: E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_vvd\vivado.jou
+#-----------------------------------------------------------sstart_guiopen_project E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_vvd/Lab4_vvd.xpr
+Scanning sources...
+Finished scanning sources
+WWARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_vvd/Lab4_vvd.srcs/sources_1'.INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+IINFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+[Wed Nov  9 09:35:26 2022] Launched synth_1...
+Run output will be captured here: E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_vvd/Lab4_vvd.runs/synth_1/runme.log
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_vvd/Lab4_vvd.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_vvd/Lab4_vvd.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb__vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-311] analyzing module instructionMemory
+INFO: [VRFC 10-311] analyzing module registers
+INFO: [VRFC 10-311] analyzing module immGen
+INFO: [VRFC 10-311] analyzing module mux_32b_2to1
+INFO: [VRFC 10-311] analyzing module PC_mux_32b_3to1
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module dataMemory
+INFO: [VRFC 10-311] analyzing module add
+INFO: [VRFC 10-311] analyzing module shiftRight1
+INFO: [VRFC 10-311] analyzing module branchControl
+INFO: [VRFC 10-311] analyzing module ALU_ct
+INFO: [VRFC 10-311] analyzing module control
+INFO: [VRFC 10-311] analyzing module IF_ID
+INFO: [VRFC 10-311] analyzing module ID_EX
+INFO: [VRFC 10-311] analyzing module EX_MEM
+INFO: [VRFC 10-311] analyzing module MEM_WB
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2458] undeclared symbol MEM_jump, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:539]
+INFO: [VRFC 10-2458] undeclared symbol Branch_Src, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:539]
+INFO: [VRFC 10-2458] undeclared symbol WB_regWrite, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:543]
+INFO: [VRFC 10-2458] undeclared symbol ID_branch, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:545]
+INFO: [VRFC 10-2458] undeclared symbol ID_memToReg, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:545]
+INFO: [VRFC 10-2458] undeclared symbol ID_ALU_src, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:545]
+INFO: [VRFC 10-2458] undeclared symbol ID_regWrite, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:545]
+INFO: [VRFC 10-2458] undeclared symbol ID_jump, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:545]
+INFO: [VRFC 10-2458] undeclared symbol EX_regWrite, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:549]
+INFO: [VRFC 10-2458] undeclared symbol EX_memToReg, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:549]
+INFO: [VRFC 10-2458] undeclared symbol EX_jump, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:549]
+INFO: [VRFC 10-2458] undeclared symbol EX_branch, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:549]
+INFO: [VRFC 10-2458] undeclared symbol EX_ALU_src, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:549]
+INFO: [VRFC 10-2458] undeclared symbol EX_branchOK, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:552]
+INFO: [VRFC 10-2458] undeclared symbol MEM_regWrite, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:558]
+INFO: [VRFC 10-2458] undeclared symbol MEM_memToReg, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:558]
+INFO: [VRFC 10-2458] undeclared symbol MEM_branch, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:558]
+INFO: [VRFC 10-2458] undeclared symbol MEM_branchOK, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:558]
+INFO: [VRFC 10-2458] undeclared symbol WB_memToReg, assumed default net type wire [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:563]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Semesters/FA22/VE370/Labs/Lab4/simulation.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_vvd/Lab4_vvd.sim/sim_1/behav/xsim'
+"xelab -wto b7fc7296b63a4128ba8766a23bcb39fb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb__behav xil_defaultlib.tb_ xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto b7fc7296b63a4128ba8766a23bcb39fb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb__behav xil_defaultlib.tb_ xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v" Line 508. Module top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v" Line 1. Module PC doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v" Line 17. Module instructionMemory_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v" Line 231. Module add doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v" Line 102. Module PC_mux_32b_3to1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v" Line 421. Module IF_ID doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v" Line 34. Module registers_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v" Line 59. Module immGen doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v" Line 319. Module control doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v" Line 435. Module ID_EX doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v" Line 92. Module mux_32b_2to1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v" Line 119. Module ALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v" Line 266. Module ALU_ct doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v" Line 92. Module mux_32b_2to1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v" Line 240. Module shiftRight1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v" Line 231. Module add doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v" Line 465. Module EX_MEM doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v" Line 181. Module dataMemory_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v" Line 253. Module branchControl doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v" Line 490. Module MEM_WB doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v" Line 92. Module mux_32b_2to1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v" Line 508. Module top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v" Line 1. Module PC doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v" Line 17. Module instructionMemory_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v" Line 231. Module add doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v" Line 102. Module PC_mux_32b_3to1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v" Line 421. Module IF_ID doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v" Line 34. Module registers_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v" Line 59. Module immGen doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v" Line 319. Module control doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v" Line 435. Module ID_EX doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v" Line 92. Module mux_32b_2to1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v" Line 119. Module ALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v" Line 266. Module ALU_ct doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v" Line 92. Module mux_32b_2to1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v" Line 240. Module shiftRight1 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v" Line 231. Module add doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v" Line 465. Module EX_MEM doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v" Line 181. Module dataMemory_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v" Line 253. Module branchControl doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v" Line 490. Module MEM_WB doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v" Line 92. Module mux_32b_2to1 doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.instructionMemory_default
+Compiling module xil_defaultlib.add
+Compiling module xil_defaultlib.PC_mux_32b_3to1
+Compiling module xil_defaultlib.IF_ID
+Compiling module xil_defaultlib.registers_default
+Compiling module xil_defaultlib.immGen
+Compiling module xil_defaultlib.control
+Compiling module xil_defaultlib.ID_EX
+Compiling module xil_defaultlib.mux_32b_2to1
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.ALU_ct
+Compiling module xil_defaultlib.shiftRight1
+Compiling module xil_defaultlib.EX_MEM
+Compiling module xil_defaultlib.dataMemory_default
+Compiling module xil_defaultlib.branchControl
+Compiling module xil_defaultlib.MEM_WB
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.tb_
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb__behav
+
+****** Webtalk v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_vvd/Lab4_vvd.sim/sim_1/behav/xsim/xsim.dir/tb__behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_vvd/Lab4_vvd.sim/sim_1/behav/xsim/xsim.dir/tb__behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Wed Nov  9 09:36:02 2022. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2020.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Wed Nov  9 09:36:02 2022...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1013.090 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_vvd/Lab4_vvd.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb__behav -key {Behavioral:sim_1:Functional:tb_} -tclbatch {tb_.tcl} -view {E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_vvd/tb__behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+open_wave_config E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_vvd/tb__behav.wcfg
+source tb_.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb__behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:14 . Memory (MB): peak = 1013.090 ; gain = 0.000
+run 1000 ns
+run 1000 ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 1550 ns
+run 20 ns
+run 20 ns
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: top
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1479.676 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:508]
+	Parameter width bound to: 32 - type: integer 
+	Parameter addr_width bound to: 5 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'PC' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:1]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PC' (1#1) [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:1]
+INFO: [Synth 8-6157] synthesizing module 'instructionMemory' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:17]
+	Parameter width bound to: 32 - type: integer 
+	Parameter addr_width bound to: 7 - type: integer 
+	Parameter number bound to: 128 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'E:/Semesters/FA22/VE370/Labs/Lab4/Lab4_testcase.txt' is read successfully [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'instructionMemory' (2#1) [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:17]
+INFO: [Synth 8-6157] synthesizing module 'add' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:231]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'add' (3#1) [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:231]
+INFO: [Synth 8-6157] synthesizing module 'PC_mux_32b_3to1' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:102]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PC_mux_32b_3to1' (4#1) [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:102]
+INFO: [Synth 8-6157] synthesizing module 'IF_ID' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:421]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'IF_ID' (5#1) [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:421]
+INFO: [Synth 8-6157] synthesizing module 'registers' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:34]
+	Parameter width bound to: 32 - type: integer 
+	Parameter addr_width bound to: 5 - type: integer 
+	Parameter number bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'registers' (6#1) [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:34]
+INFO: [Synth 8-6157] synthesizing module 'immGen' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:59]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'immGen' (7#1) [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:59]
+INFO: [Synth 8-6157] synthesizing module 'control' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:319]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'control' (8#1) [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:319]
+INFO: [Synth 8-6157] synthesizing module 'ID_EX' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:435]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ID_EX' (9#1) [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:435]
+INFO: [Synth 8-6157] synthesizing module 'mux_32b_2to1' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:92]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mux_32b_2to1' (10#1) [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:92]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:119]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (11#1) [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:119]
+INFO: [Synth 8-6157] synthesizing module 'ALU_ct' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:266]
+INFO: [Synth 8-226] default block is never used [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:272]
+INFO: [Synth 8-6155] done synthesizing module 'ALU_ct' (12#1) [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:266]
+INFO: [Synth 8-6157] synthesizing module 'shiftRight1' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:240]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'shiftRight1' (13#1) [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:240]
+INFO: [Synth 8-6157] synthesizing module 'EX_MEM' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:465]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'EX_MEM' (14#1) [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:465]
+INFO: [Synth 8-6157] synthesizing module 'dataMemory' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:181]
+	Parameter width bound to: 32 - type: integer 
+	Parameter addr_width bound to: 7 - type: integer 
+	Parameter number bound to: 128 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'dataMemory' (15#1) [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:181]
+INFO: [Synth 8-6157] synthesizing module 'branchControl' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:253]
+INFO: [Synth 8-6155] done synthesizing module 'branchControl' (16#1) [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:253]
+INFO: [Synth 8-6157] synthesizing module 'MEM_WB' [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:490]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'MEM_WB' (17#1) [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:490]
+INFO: [Synth 8-6155] done synthesizing module 'top' (18#1) [E:/Semesters/FA22/VE370/Labs/Lab4/pipelined_processor.v:508]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1695.871 ; gain = 216.195
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1695.871 ; gain = 216.195
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1695.871 ; gain = 216.195
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.061 . Memory (MB): peak = 1695.871 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1695.871 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 1695.871 ; gain = 216.195
+42 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 1695.871 ; gain = 216.195
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Nov  9 09:50:10 2022...

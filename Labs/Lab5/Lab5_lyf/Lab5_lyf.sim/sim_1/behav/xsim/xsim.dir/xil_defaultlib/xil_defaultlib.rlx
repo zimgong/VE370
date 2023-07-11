@@ -1,0 +1,7 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+E:/Semesters/FA22/VE370/Labs/Lab5/Lab5_lyf/Lab5_lyf.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+E:/Semesters/FA22/VE370/Labs/Lab5/pipeline.v,1668524077,verilog,,E:/Semesters/FA22/VE370/Labs/Lab5/sim.v,,ALU;ALU_Control;Comparator;Control_Unit;Data_Memory;EX_MEM_Reg;ID_EX_Reg;IF_ID_Reg;Instruction_Memory;MEM_WB_Reg;Register_File;adder;forwarding_unit;hazard_detection;imm_gen;mux21;mux42;pipeline2;sign_extension,,,,,,,,
+E:/Semesters/FA22/VE370/Labs/Lab5/sim.v,1668530565,verilog,,,,sim,,,,,,,,

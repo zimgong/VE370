@@ -1,0 +1,7 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+E:/Semesters/FA22/VE370/Labs/Lab5/Lab5_vvd/Lab5_vvd.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+E:/Semesters/FA22/VE370/Labs/Lab5/pipelined_cpu_hazard_resolved.v,1668563409,verilog,,E:/Semesters/FA22/VE370/Labs/Lab5/simulation.v,,ALU;ALU_ct;EX_MEM;EX_forwardingUnit;ID_EX;ID_forwardingUnit;IF_ID;MEM_WB;PC;PC_mux_32b_2to1;add;branchControl;branchDetection;control;dataMemory;hazardDetectionUnit;immGen;instructionMemory;memSrcUnit;mux_32b_2to1;mux_32b_3to1;registerFile;shiftRight1;top,,,,,,,,
+E:/Semesters/FA22/VE370/Labs/Lab5/simulation.v,1668529317,verilog,,,E:/Semesters/FA22/VE370/Labs/Lab5/pipelined_cpu_hazard_resolved.v,tb_,,,,,,,,
